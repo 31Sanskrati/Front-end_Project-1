@@ -201,7 +201,7 @@
   align-items: center;
   justify-self: center;
   margin: 0 auto;
-  height: ;
+  height: auto;
   z-index: 1;
   width: 100%;
   padding: 0px 50px;
@@ -375,7 +375,7 @@ img {
       rgba(0, 0, 0, 0.794) 0%,
       rgba(20, 17, 17, 0.288) 100%
     ),
-    url("/images/vr.jpg");
+    url('images/vr.jpg');
   background-size: cover;
   position: relative;
   color: white;
@@ -387,7 +387,7 @@ img {
       rgba(0, 0, 0, 0.794) 0%,
       rgba(20, 17, 17, 0.288) 100%
     ),
-    url("/images/drone.jpg");
+    url('images/drone.jpg');
 }
 
 .services h2 {
@@ -492,7 +492,7 @@ img {
   box-sizing: border-box;
 }
 
-.website__rights{
+.website__rights {
   color: white;
 }
 
@@ -547,29 +547,29 @@ img {
   margin-bottom: 20px;
 }
 
-@media screen and (max-width: 800px){
-  .footer__links{
+@media screen and (max-width: 800px) {
+  .footer__links {
     padding-top: 15px;
   }
 
-  #footer__logo{
+  #footer__logo {
     margin-top: 15px;
   }
 
-  .website__rights{
+  .website__rights {
     margin-bottom: 15px;
   }
 
-  .footer__link--wrapper{
+  .footer__link--wrapper {
     flex-direction: column;
   }
-  .social__media--wrap{
+  .social__media--wrap {
     flex-direction: column;
   }
 }
 
-@media screen and (max-width: 500px){
-  .footer__link--items{
+@media screen and (max-width: 500px) {
+  .footer__link--items {
     margin: 0;
     padding: 10px;
     width: 100%;
